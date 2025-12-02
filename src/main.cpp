@@ -4,18 +4,16 @@
 #include <sstream>
 #include <iomanip>
 #include <vector>
-#include <winsock2.h>
-#include <ws2tcpip.h>
 #include <algorithm>
 #include <ctime>
+#include <cstring>
+#include "config.h"
 
 // Include YOUR existing classes
 #include "../include/System.h"
 #include "../include/Station.h"
 #include "../include/Destination.h"
 #include "../include/Louage.h"
-
-#pragma comment(lib, "ws2_32.lib")
 
 using namespace std;
 
@@ -459,18 +457,13 @@ int main() {
         return 1;
     }
     
-    // Initialize networking
-    WSADATA wsaData;
-    if (WSAStartup(MAKEWORD(2, 2), &wsaData) != 0) {
-        cerr << "Failed to initialize Winsock" << endl;
-        return 1;
-    }
+    // Linux doesn't need WSADATA initialization
+    // Remove Windows-specific networking initialization
     
     // Create server socket
-    SOCKET serverSocket = socket(AF_INET, SOCK_STREAM, 0);
+    SOCKET_TYPE serverSocket = socket(AF_INET, SOCK_STREAM, 0);
     if (serverSocket == INVALID_SOCKET) {
         cerr << "Failed to create socket" << endl;
-        WSACleanup();
         return 1;
     }
     
@@ -478,32 +471,30 @@ int main() {
     int opt = 1;
     setsockopt(serverSocket, SOL_SOCKET, SO_REUSEADDR, (char*)&opt, sizeof(opt));
     
-    // Bind to port 8080
+    // Bind to port 10000 (for Render)
     sockaddr_in serverAddr;
     serverAddr.sin_family = AF_INET;
     serverAddr.sin_addr.s_addr = INADDR_ANY;
     serverAddr.sin_port = htons(10000);
     
     if (bind(serverSocket, (sockaddr*)&serverAddr, sizeof(serverAddr)) == SOCKET_ERROR) {
-        cerr << "Failed to bind to port 8080" << endl;
-        closesocket(serverSocket);
-        WSACleanup();
+        cerr << "Failed to bind to port 10000" << endl;
+        CLOSE_SOCKET(serverSocket);
         return 1;
     }
     
     // Listen
     if (listen(serverSocket, 10) == SOCKET_ERROR) {
         cerr << "Failed to listen on socket" << endl;
-        closesocket(serverSocket);
-        WSACleanup();
+        CLOSE_SOCKET(serverSocket);
         return 1;
     }
     
-    cout << "Server: http://localhost:8080" << endl;
+    cout << "Server: http://localhost:10000" << endl;
     
     // Main server loop
     while (true) {
-        SOCKET clientSocket = accept(serverSocket, NULL, NULL);
+        SOCKET_TYPE clientSocket = accept(serverSocket, NULL, NULL);
         if (clientSocket == INVALID_SOCKET) {
             continue;
         }
@@ -635,12 +626,12 @@ int main() {
             
             // Send response
             send(clientSocket, response.c_str(), response.length(), 0);
+            CLOSE_SOCKET(clientSocket);
         }
         
-        closesocket(clientSocket);
+        CLOSE_SOCKET(clientSocket);
     }
     
-    closesocket(serverSocket);
-    WSACleanup();
+    CLOSE_SOCKET(serverSocket);
     return 0;
 }
