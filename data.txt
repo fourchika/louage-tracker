@@ -1,0 +1,509 @@
+# STATION: Tunis (ID: 1) - Capitale, station principale
+Station|Tunis|1
+# DESTINATIONS depuis Tunis:
+Destination|Sousse
+Louage|TN001|2050|1001
+Louage|TN002|2051|1002
+Louage|TN003|2052|1003
+Destination|Sfax
+Louage|TN101|3050|2001
+Louage|TN102|3051|2002
+Louage|TN103|3052|2003
+Destination|Gabès
+Louage|TN201|4050|3001
+Louage|TN202|4051|3002
+Destination|Bizerte
+Louage|TN301|1050|4001
+Louage|TN302|1051|4002
+Destination|Nabeul
+Louage|TN401|1150|5001
+Louage|TN402|1151|5002
+Destination|Kairouan
+Louage|TN501|2250|6001
+Destination|Monastir
+Louage|TN601|2350|7001
+Destination|Mahdia
+Louage|TN701|2450|8001
+Destination|Jendouba
+Louage|TN801|2550|9001
+Destination|Béja
+Louage|TN901|2650|10001
+Destination|Le Kef
+Louage|TN1001|2750|11001
+Destination|Siliana
+Louage|TN1101|2850|12001
+Destination|Zaghouan
+Louage|TN1201|2950|13001
+
+# STATION: Sousse (ID: 2) - Station côtière principale
+Station|Sousse|2
+# DESTINATIONS depuis Sousse:
+Destination|Tunis
+Louage|SO001|2150|6001
+Louage|SO002|2151|6002
+Destination|Sfax
+Louage|SO101|3150|7001
+Louage|SO102|3151|7002
+Destination|Monastir
+Louage|SO201|1250|8001
+Louage|SO202|1251|8002
+Destination|Mahdia
+Louage|SO301|1350|9001
+Louage|SO302|1351|9002
+Destination|Kairouan
+Louage|SO401|1450|10001
+Destination|Nabeul
+Louage|SO501|1550|11001
+
+# STATION: Sfax (ID: 3) - 2ème ville économique
+Station|Sfax|3
+# DESTINATIONS depuis Sfax:
+Destination|Tunis
+Louage|SF001|3250|9001
+Louage|SF002|3251|9002
+Destination|Sousse
+Louage|SF101|3350|9501
+Louage|SF102|3351|9502
+Destination|Gabès
+Louage|SF201|4250|10001
+Louage|SF202|4251|10002
+Destination|Gafsa
+Louage|SF301|5250|11001
+Destination|Tozeur
+Louage|SF401|6250|12001
+Destination|Medenine
+Louage|SF501|7250|13001
+
+# STATION: Gabès (ID: 4) - Porte du Sud
+Station|Gabès|4
+# DESTINATIONS depuis Gabès:
+Destination|Tunis
+Louage|GB001|4350|10001
+Destination|Sfax
+Louage|GB101|4450|11001
+Louage|GB102|4451|11002
+Destination|Medenine
+Louage|GB201|5450|12001
+Louage|GB202|5451|12002
+Destination|Tataouine
+Louage|GB301|6450|13001
+Destination|Zarzis
+Louage|GB401|7450|14001
+Destination|Djerba
+Louage|GB501|8450|15001
+
+# STATION: Bizerte (ID: 5) - Nord de la Tunisie
+Station|Bizerte|5
+# DESTINATIONS depuis Bizerte:
+Destination|Tunis
+Louage|BZ001|1350|16001
+Louage|BZ002|1351|16002
+Destination|Jendouba
+Louage|BZ101|2350|17001
+Destination|Béja
+Louage|BZ201|3350|18001
+Destination|Tabarka
+Louage|BZ301|4350|19001
+Destination|Aïn Draham
+Louage|BZ401|5350|20001
+
+# STATION: Nabeul (ID: 6) - Capitale du Cap Bon
+Station|Nabeul|6
+# DESTINATIONS depuis Nabeul:
+Destination|Tunis
+Louage|NB001|1450|21001
+Louage|NB002|1451|21002
+Destination|Sousse
+Louage|NB101|2450|22001
+Destination|Hammamet
+Louage|NB201|3450|23001
+Destination|Kélibia
+Louage|NB301|4450|24001
+Destination|Korba
+Louage|NB401|5450|25001
+
+# STATION: Kairouan (ID: 7) - Ville Sainte
+Station|Kairouan|7
+# DESTINATIONS depuis Kairouan:
+Destination|Tunis
+Louage|KR001|2550|26001
+Louage|KR002|2551|26002
+Destination|Sousse
+Louage|KR101|3550|27001
+Destination|Sfax
+Louage|KR201|4550|28001
+Destination|Gafsa
+Louage|KR301|5550|29001
+
+# STATION: Monastir (ID: 8) - Station balnéaire
+Station|Monastir|8
+# DESTINATIONS depuis Monastir:
+Destination|Tunis
+Louage|MS001|2650|30001
+Destination|Sousse
+Louage|MS101|3650|31001
+Louage|MS102|3651|31002
+Destination|Mahdia
+Louage|MS201|4650|32001
+Destination|Sfax
+Louage|MS301|5650|33001
+
+# STATION: Mahdia (ID: 9) - Côte centrale
+Station|Mahdia|9
+# DESTINATIONS depuis Mahdia:
+Destination|Tunis
+Louage|MH001|2750|34001
+Destination|Sousse
+Louage|MH101|3750|35001
+Louage|MH102|3751|35002
+Destination|Monastir
+Louage|MH201|4750|36001
+Destination|Sfax
+Louage|MH301|5750|37001
+Destination|Kairouan
+Louage|MH401|6750|38001
+
+# STATION: Jendouba (ID: 10) - Nord-Ouest
+Station|Jendouba|10
+# DESTINATIONS depuis Jendouba:
+Destination|Tunis
+Louage|JD001|2850|39001
+Destination|Béja
+Louage|JD101|3850|40001
+Destination|Le Kef
+Louage|JD201|4850|41001
+Destination|Tabarka
+Louage|JD301|5850|42001
+Destination|Aïn Draham
+Louage|JD401|6850|43001
+
+# STATION: Béja (ID: 11) - Nord-Ouest
+Station|Béja|11
+# DESTINATIONS depuis Béja:
+Destination|Tunis
+Louage|BJ001|2950|44001
+Destination|Jendouba
+Louage|BJ101|3950|45001
+Destination|Le Kef
+Louage|BJ201|4950|46001
+Destination|Siliana
+Louage|BJ301|5950|47001
+
+# STATION: Le Kef (ID: 12) - Nord-Ouest montagneux
+Station|Le Kef|12
+# DESTINATIONS depuis Le Kef:
+Destination|Tunis
+Louage|KF001|3050|48001
+Destination|Jendouba
+Louage|KF101|4050|49001
+Destination|Béja
+Louage|KF201|5050|50001
+Destination|Siliana
+Louage|KF301|6050|51001
+Destination|Kasserine
+Louage|KF401|7050|52001
+
+# STATION: Siliana (ID: 13) - Centre-Ouest
+Station|Siliana|13
+# DESTINATIONS depuis Siliana:
+Destination|Tunis
+Louage|SL001|3150|53001
+Destination|Le Kef
+Louage|SL101|4150|54001
+Destination|Kairouan
+Louage|SL201|5150|55001
+Destination|Kasserine
+Louage|SL301|6150|56001
+
+# STATION: Zaghouan (ID: 14) - Montagne proche de Tunis
+Station|Zaghouan|14
+# DESTINATIONS depuis Zaghouan:
+Destination|Tunis
+Louage|ZG001|3250|57001
+Louage|ZG002|3251|57002
+Destination|Nabeul
+Louage|ZG101|4250|58001
+Destination|Kairouan
+Louage|ZG201|5250|59001
+
+# STATION: Gafsa (ID: 15) - Porte du Sud-Ouest
+Station|Gafsa|15
+# DESTINATIONS depuis Gafsa:
+Destination|Tunis
+Louage|GF001|4250|60001
+Destination|Sfax
+Louage|GF101|5250|61001
+Louage|GF102|5251|61002
+Destination|Tozeur
+Louage|GF201|6250|62001
+Louage|GF202|6251|62002
+Destination|Gabès
+Louage|GF301|7250|63001
+Destination|Kébili
+Louage|GF401|8250|64001
+Destination|Kasserine
+Louage|GF501|9250|65001
+
+# STATION: Tozeur (ID: 16) - Porte du Sahara
+Station|Tozeur|16
+# DESTINATIONS depuis Tozeur:
+Destination|Tunis
+Louage|TZ001|5250|66001
+Destination|Gafsa
+Louage|TZ101|6250|67001
+Louage|TZ102|6251|67002
+Destination|Gabès
+Louage|TZ201|7250|68001
+Destination|Kébili
+Louage|TZ301|8250|69001
+Destination|Douz
+Louage|TZ401|9250|70001
+Destination|Nefta
+Louage|TZ501|10250|71001
+
+# STATION: Medenine (ID: 17) - Sud-Est
+Station|Medenine|17
+# DESTINATIONS depuis Medenine:
+Destination|Tunis
+Louage|MD001|6250|72001
+Destination|Gabès
+Louage|MD101|7250|73001
+Louage|MD102|7251|73002
+Destination|Tataouine
+Louage|MD201|8250|74001
+Louage|MD202|8251|74002
+Destination|Zarzis
+Louage|MD301|9250|75001
+Destination|Ben Gardane
+Louage|MD401|10250|76001
+Destination|Djerba
+Louage|MD501|11250|77001
+
+# STATION: Tataouine (ID: 18) - Extrême Sud
+Station|Tataouine|18
+# DESTINATIONS depuis Tataouine:
+Destination|Tunis
+Louage|TT001|7250|78001
+Destination|Medenine
+Louage|TT101|8250|79001
+Louage|TT102|8251|79002
+Destination|Gabès
+Louage|TT201|9250|80001
+Destination|Zarzis
+Louage|TT301|10250|81001
+Destination|Remada
+Louage|TT401|11250|82001
+
+# STATION: Zarzis (ID: 19) - Porte de Djerba
+Station|Zarzis|19
+# DESTINATIONS depuis Zarzis:
+Destination|Tunis
+Louage|ZR001|8250|83001
+Destination|Medenine
+Louage|ZR101|9250|84001
+Louage|ZR102|9251|84002
+Destination|Gabès
+Louage|ZR201|10250|85001
+Destination|Djerba
+Louage|ZR301|11250|86001
+Louage|ZR302|11251|86002
+Destination|Ben Gardane
+Louage|ZR401|12250|87001
+
+# STATION: Kébili (ID: 20) - Oasis du Sud
+Station|Kébili|20
+# DESTINATIONS depuis Kébili:
+Destination|Tunis
+Louage|KB001|9250|88001
+Destination|Gafsa
+Louage|KB101|10250|89001
+Destination|Tozeur
+Louage|KB201|11250|90001
+Destination|Douz
+Louage|KB301|12250|91001
+Louage|KB302|12251|91002
+Destination|Gabès
+Louage|KB401|13250|92001
+
+# STATION: Kasserine (ID: 21) - Centre-Ouest
+Station|Kasserine|21
+# DESTINATIONS depuis Kasserine:
+Destination|Tunis
+Louage|KS001|10250|93001
+Destination|Sfax
+Louage|KS101|11250|94001
+Destination|Gafsa
+Louage|KS201|12250|95001
+Destination|Sidi Bouzid
+Louage|KS301|13250|96001
+Destination|Le Kef
+Louage|KS401|14250|97001
+
+# STATION: Sidi Bouzid (ID: 22) - Centre
+Station|Sidi Bouzid|22
+# DESTINATIONS depuis Sidi Bouzid:
+Destination|Tunis
+Louage|SB001|11250|98001
+Destination|Kairouan
+Louage|SB101|12250|99001
+Destination|Sfax
+Louage|SB201|13250|100001
+Destination|Kasserine
+Louage|SB301|14250|101001
+Destination|Gafsa
+Louage|SB401|15250|102001
+
+# STATION: Hammamet (ID: 23) - Station touristique
+Station|Hammamet|23
+# DESTINATIONS depuis Hammamet:
+Destination|Tunis
+Louage|HM001|12250|103001
+Louage|HM002|12251|103002
+Destination|Nabeul
+Louage|HM101|13250|104001
+Louage|HM102|13251|104002
+Destination|Sousse
+Louage|HM201|14250|105001
+Destination|Kairouan
+Louage|HM301|15250|106001
+
+# STATION: Tabarka (ID: 24) - Côte Nord-Ouest
+Station|Tabarka|24
+# DESTINATIONS depuis Tabarka:
+Destination|Tunis
+Louage|TB001|13250|107001
+Destination|Bizerte
+Louage|TB101|14250|108001
+Destination|Jendouba
+Louage|TB201|15250|109001
+Destination|Aïn Draham
+Louage|TB301|16250|110001
+
+# STATION: Aïn Draham (ID: 25) - Station de montagne
+Station|Aïn Draham|25
+# DESTINATIONS depuis Aïn Draham:
+Destination|Tunis
+Louage|AD001|14250|111001
+Destination|Jendouba
+Louage|AD101|15250|112001
+Destination|Tabarka
+Louage|AD201|16250|113001
+Destination|Le Kef
+Louage|AD301|17250|114001
+
+# STATION: Djerba (Houmt Souk) (ID: 26) - Île touristique
+Station|Djerba (Houmt Souk)|26
+# DESTINATIONS depuis Djerba (Houmt Souk):
+Destination|Tunis
+Louage|DJ001|15250|115001
+Destination|Zarzis
+Louage|DJ101|16250|116001
+Louage|DJ102|16251|116002
+Destination|Medenine
+Louage|DJ201|17250|117001
+Louage|DJ202|17251|117002
+Destination|Gabès
+Louage|DJ301|18250|118001
+Destination|Sfax
+Louage|DJ401|19250|119001
+
+# STATION: Ben Gardane (ID: 27) - Frontière Libyenne
+Station|Ben Gardane|27
+# DESTINATIONS depuis Ben Gardane:
+Destination|Tunis
+Louage|BG001|16250|120001
+Destination|Medenine
+Louage|BG101|17250|121001
+Louage|BG102|17251|121002
+Destination|Zarzis
+Louage|BG201|18250|122001
+Destination|Djerba
+Louage|BG301|19250|123001
+
+# STATION: Douz (ID: 28) - Porte du Grand Erg
+Station|Douz|28
+# DESTINATIONS depuis Douz:
+Destination|Tunis
+Louage|DZ001|17250|124001
+Destination|Kébili
+Louage|DZ101|18250|125001
+Louage|DZ102|18251|125002
+Destination|Tozeur
+Louage|DZ201|19250|126001
+Destination|Gabès
+Louage|DZ301|20250|127001
+
+# STATION: Kélibia (ID: 29) - Cap Bon Nord
+Station|Kélibia|29
+# DESTINATIONS depuis Kélibia:
+Destination|Tunis
+Louage|KL001|18250|128001
+Destination|Nabeul
+Louage|KL101|19250|129001
+Louage|KL102|19251|129002
+Destination|Hammamet
+Louage|KL201|20250|130001
+
+# STATION: Korba (ID: 30) - Cap Bon Est
+Station|Korba|30
+# DESTINATIONS depuis Korba:
+Destination|Tunis
+Louage|KB001|19250|131001
+Destination|Nabeul
+Louage|KB101|20250|132001
+Destination|Hammamet
+Louage|KB201|21250|133001
+
+# STATION: Nefta (ID: 31) - Oasis du Sud-Ouest
+Station|Nefta|31
+# DESTINATIONS depuis Nefta:
+Destination|Tozeur
+Louage|NF001|20250|134001
+Louage|NF002|20251|134002
+Destination|Gafsa
+Louage|NF101|21250|135001
+Destination|Douz
+Louage|NF201|22250|136001
+
+# STATION: Remada (ID: 32) - Extrême Sud militaire
+Station|Remada|32
+# DESTINATIONS depuis Remada:
+Destination|Tataouine
+Louage|RM001|21250|137001
+Destination|Medenine
+Louage|RM101|22250|138001
+Destination|Gabès
+Louage|RM201|23250|139001
+
+# STATION: El Jem (ID: 33) - Ville archéologique
+Station|El Jem|33
+# DESTINATIONS depuis El Jem:
+Destination|Sousse
+Louage|EJ001|22250|140001
+Destination|Mahdia
+Louage|EJ101|23250|141001
+Destination|Sfax
+Louage|EJ201|24250|142001
+Destination|Kairouan
+Louage|EJ301|25250|143001
+
+# STATION: Mateur (ID: 34) - Nord
+Station|Mateur|34
+# DESTINATIONS depuis Mateur:
+Destination|Tunis
+Louage|MT001|23250|144001
+Destination|Bizerte
+Louage|MT101|24250|145001
+Destination|Jendouba
+Louage|MT201|25250|146001
+
+# STATION: Menzel Bourguiba (ID: 35) - Nord
+Station|Menzel Bourguiba|35
+# DESTINATIONS depuis Menzel Bourguiba:
+Destination|Tunis
+Louage|MB001|24250|147001
+Destination|Bizerte
+Louage|MB101|25250|148001
+Louage|MB102|25251|148002
+Destination|Mateur
+Louage|MB201|26250|149001

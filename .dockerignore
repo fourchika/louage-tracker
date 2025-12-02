@@ -1,0 +1,9 @@
+build/
+*.o
+*.exe
+*.out
+.git/
+.gitignore
+.vscode/
+CMakeCache.txt
+CMakeFiles/
